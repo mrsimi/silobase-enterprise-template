@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Silobase deployment on Render",
   "scripts": {
-     "start": "echo $SILOBASE_LICENSE_BASE64 | base64 -d > /tmp/license.lic && silobase start --license /tmp/license.lic"
+     "start": "echo $SILOBASE_LICENSE_BASE64 | base64 -d > /tmp/license.lic && silobase-enterprise start --license /tmp/license.lic"
   },
   "dependencies": {
-    "silobase": "1.0.0"
+    "silobase-enterprise": "1.0.0"
   },
   "engines": {
     "node": ">=18"
